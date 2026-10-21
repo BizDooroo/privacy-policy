@@ -11,3 +11,4 @@ title: 개인정보 처리방침
 - [비밀투표 개인정보 처리방침](secret_vote)
 - [알라딘램프 개인정보 처리방침](aladin_lamp)
 - [위험한 출근길 개인정보 처리방침](dangerous_commute)
+- [농지대장 개인정보 처리방침](captain_farmland)
