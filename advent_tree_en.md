@@ -15,6 +15,8 @@ title: Advent Tree Privacy Policy
 
 The app operates entirely on your device. The Developer does not collect personal information through the app, store it on the Developer's servers, or receive it from the app. Information you voluntarily send us when contacting support is handled separately, as described in Section 3.
 
+The app stores language and background music preferences, yearly display configuration, the most recent visit date, consecutive visit counts, and records of certain visual effects in your device's settings storage. This information is used to preserve settings and provide display and visit effects; it is not sent to the Developer. You can remove on-device information by uninstalling the app or using an app-data deletion feature provided by your operating system. Retention and deletion of copies created through operating-system backup and restore features are governed by the relevant operating-system settings. Uninstalling the app does not by itself delete backup copies.
+
 ## 3. Privacy Officer and Support Inquiries
 
 We have designated the following Privacy Officer to handle privacy-related questions and requests:
@@ -25,7 +27,7 @@ We have designated the following Privacy Officer to handle privacy-related quest
 
 If you contact us by email or otherwise send us a support inquiry, we may process your email address, the contents of your inquiry, and any other personal information you include. We use this information only to respond to and handle your inquiry. We retain it for one year and then delete it. Please avoid including personal information that is not necessary for your inquiry.
 
-You may use the email address above to ask questions about this policy or request access to, correction of, or deletion of personal information you have provided in a support inquiry.
+You may use the email address above to ask questions about this policy, request access to, correction of, or deletion of personal information you have provided in a support inquiry, or withdraw consent to its processing. Provide only the minimum information needed to identify the inquiry, such as the sender email address and approximate inquiry date. We may verify your authority to make the request to the extent necessary and will explain the outcome or why we cannot fulfill the request. Contacting support is optional and is not required to use the app. Uninstalling the app does not automatically delete inquiry emails you have already sent.
 
 ## 4. Changes to This Policy
 
@@ -33,3 +35,4 @@ If we add, remove, or amend provisions of this Privacy Policy, we will provide n
 
 - Published: November 27, 2025
 - Effective: November 27, 2025
+- Clarification of app and support data handling and request procedures: October 22, 2026 (no new data collection or purposes of use)
