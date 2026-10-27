@@ -78,14 +78,14 @@ See Sentry's [data storage location](https://docs.sentry.io/organization/data-st
 ## 7. Retention and deletion
 
 1. After a room's expiry date passes, the room and its messages, photos and relay storage are deleted from the device the next time the App runs. Rooms expire after 7 days by default; each extension can push the expiry up to 30 days from the time of extension. When a room is deleted its data is deleted with it; a record needed to tell other devices about the deletion (the room identifier and the identifier of the device that deleted it) is kept for up to 35 days. A per-room sequence counter keyed by the room identifier is kept so that message ordering does not collide if you rejoin the same room.
-2. All on-device data can be removed by clearing the App's data in the operating system or by uninstalling the App. If operating system backup (such as Android Auto Backup) is on, App data may be included in backup copies, which must be managed in those backup settings. Offloading an app on iOS may keep its data.
+2. All on-device data can be removed by clearing the App's data in the operating system or by uninstalling the App. Because conversation data includes other people's relayed messages, it is kept out of operating system backups: on Android all App data is excluded from cloud backup and device-to-device transfer, and on iOS the conversation database is excluded from iCloud and computer backups. Conversations therefore do not move to a new phone or come back from a backup. Offloading an app on iOS may keep its data.
 3. The Developer cannot remotely delete messages and photos already delivered to other people's devices; they are deleted on those devices according to the same expiry and deletion rules.
 4. Error information in Sentry is deleted after at most 90 days according to Sentry's retention policy and the project settings. Sentry's published default retention for error events is 30 or 90 days depending on the plan ([retention periods](https://docs.sentry.io/security-legal-pii/security/data-retention-periods/)).
 5. Inquiry emails are kept for one year to answer and resolve issues and then deleted, unless the law requires longer retention.
 
 ## 8. Security measures
 
-- There is no server that collects conversations; conversation data is stored only on your device and nearby devices.
+- There is no server that collects conversations; conversation data is stored only on your device and nearby devices and is excluded from operating system backups.
 - Error reports are sent only with your consent, scrubbed by an allowlist and sent over HTTPS. Only the Developer can access the Sentry project, which has IP address storage prevention and automatic sensitive-data scrubbing turned on.
 - The current version does not provide end-to-end encryption between nearby devices. This limitation is explained in Section 2.
 
