@@ -12,3 +12,4 @@ title: 개인정보 처리방침
 - [알라딘램프 개인정보 처리방침](aladin_lamp) · [English](aladin_lamp_en)
 - [위험한 출근길 개인정보 처리방침](dangerous_commute) · [English](dangerous_commute_en)
 - [농지대장 개인정보 처리방침](captain_farmland) · [English](captain_farmland_en)
+- [두런두런 개인정보 처리방침](portcall) · [English](portcall_en)
