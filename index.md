@@ -14,3 +14,4 @@ title: 개인정보 처리방침
 - [농지대장 개인정보 처리방침](captain_farmland) · [English](captain_farmland_en)
 - [두런두런 개인정보 처리방침](portcall) · [English (Duru)](portcall_en)
 - [플라이트챗 개인정보 처리방침](bluechat) · [English](bluechat_en)
+- [빛말 개인정보 처리방침](textled) · [English](textled_en)
