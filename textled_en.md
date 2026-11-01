@@ -40,7 +40,7 @@ Only when you tap "Get" on the Packs screen or in a font notice does the app dow
 
 | Item | Details |
 | --- | --- |
-| Recipient | The jsDelivr public CDN (`cdn.jsdelivr.net`), [jsDelivr Privacy Policy](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net); when some fonts are downloaded again, GitHub, Inc. (`github.com`, `raw.githubusercontent.com`), [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| Recipient | The jsDelivr public CDN (`cdn.jsdelivr.net`), [jsDelivr Privacy Policy](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net); when some fonts are downloaded again, GitHub, Inc. (GitHub-operated hosts such as `github.com`, `raw.githubusercontent.com`, and `release-assets.githubusercontent.com`), [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 | Information | Connection information such as your IP address, and the address of the requested font file (browser details for the web version) |
 | Country and timing | The countries where the jsDelivr servers nearest to you are located, and the United States and other countries for GitHub; sent over an encrypted connection (HTTPS) when you tap "Get" |
 | Retention | Under each company's policy. The Developer does not receive or keep this information. |

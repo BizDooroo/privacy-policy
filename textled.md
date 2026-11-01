@@ -40,7 +40,7 @@ title: 빛말 개인정보 처리방침
 
 | 항목 | 내용 |
 | --- | --- |
-| 받는 자 | jsDelivr 공개 CDN (`cdn.jsdelivr.net`), [jsDelivr 개인정보처리방침](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net). 일부 글꼴을 다시 받을 때 GitHub, Inc. (`github.com`, `raw.githubusercontent.com`), [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| 받는 자 | jsDelivr 공개 CDN (`cdn.jsdelivr.net`), [jsDelivr 개인정보처리방침](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net). 일부 글꼴을 다시 받을 때 GitHub, Inc. (`github.com`, `raw.githubusercontent.com`, `release-assets.githubusercontent.com` 등 GitHub가 운영하는 주소), [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 | 전송되는 정보 | IP 주소 등 접속 정보와 요청한 글꼴 파일의 주소(웹 버전은 브라우저 정보 포함) |
 | 전송 국가와 시점 | 이용자와 가까운 jsDelivr 서버의 소재 국가, GitHub는 미국 등. 이용자가 “받기”를 누를 때 암호화된 통신(HTTPS)으로 전송됩니다. |
 | 보관 기간 | 각 회사의 정책에 따릅니다. 개발자는 이 정보를 받거나 보관하지 않습니다. |
