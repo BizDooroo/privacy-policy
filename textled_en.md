@@ -17,9 +17,10 @@ The Service shows a message you type in large type on your screen, like an LED s
 | --- | --- |
 | Messages you enter and their font, size, color, LED, motion, blink, and effect settings | Reopen the sign you are editing and the sign you used last. |
 | Favorites (including the names and order you give them) and up to 50 recently shown or edited signs, with the time each was last used | Let you show or edit them again from the library. |
+| Font packs you download (font files, license documents, and install information) | Show signs in those fonts without an internet connection. |
 | Language and theme, display defaults such as keeping the screen on, maximum brightness, auto-off, and the default orientation, the unlock method, list preview autoplay, and the safety notices you have already confirmed | Keep your chosen display preferences and avoid repeating safety notices. |
 
-The phone and tablet app stores this in the storage the operating system provides to the app; the desktop app in your user account's app-data folder (`%APPDATA%\BizDooroo\Bitmal` on Windows; `~/Library/Application Support/com.bizdooroo.textled`, or the same folder inside the app's container, on macOS; `~/.local/share/com.bizdooroo.textled` on Linux); and the web version in that browser's site storage (localStorage). If a saved file is damaged and cannot be read, the app does not delete it but keeps a copy (`.bak`) in the same storage location.
+The phone and tablet app stores this in the storage the operating system provides to the app; the desktop app in your user account's app-data folder (`%APPDATA%\BizDooroo\Bitmal` on Windows; `~/Library/Application Support/com.bizdooroo.textled`, or the same folder inside the app's container, on macOS; `~/.local/share/com.bizdooroo.textled` on Linux); and the web version in that browser's site storage (localStorage, and IndexedDB for font packs). Font packs are kept in a `packs` folder in the same storage location. If a saved file is damaged and cannot be read, the app does not delete it but keeps a copy (`.bak`) in the same storage location.
 
 ## 3. Permissions and External Services
 
@@ -35,13 +36,23 @@ When the web version shows a character that the fonts included in the app do not
 | Retention | Under Google's policy. The Developer does not receive or keep this information. |
 | How to refuse and effect | Use only characters the app's own fonts cover, or use the phone, tablet, or desktop app; nothing is sent then. Some characters may not appear. |
 
-The web server that delivers the web version may also process connection information while serving its pages. The phone, tablet, and desktop apps do not download fonts.
+Only when you tap "Get" on the Packs screen or in a font notice does the app download additional font files from jsDelivr, a public content delivery network (CDN). If a file cannot be downloaded from jsDelivr, some fonts are downloaded once more from their original distributor on GitHub. The requests carry no account, device identifier, or cookie and do not include your messages, and the list of downloadable fonts is built into the app, so it is not requested from a server. Your device connects to these servers directly, so connection information may be transferred overseas as follows.
+
+| Item | Details |
+| --- | --- |
+| Recipient | The jsDelivr public CDN (`cdn.jsdelivr.net`), [jsDelivr Privacy Policy](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net); when some fonts are downloaded again, GitHub, Inc. (`github.com`, `raw.githubusercontent.com`), [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| Information | Connection information such as your IP address, and the address of the requested font file (browser details for the web version) |
+| Country and timing | The countries where the jsDelivr servers nearest to you are located, and the United States and other countries for GitHub; sent over an encrypted connection (HTTPS) when you tap "Get" |
+| Retention | Under each company's policy. The Developer does not receive or keep this information. |
+| How to refuse and effect | Nothing is sent unless you tap "Get". The fonts included in the app remain available. |
+
+The web server that delivers the web version may also process connection information while serving its pages. Unless you tap "Get", the phone, tablet, and desktop apps download no files.
 
 If you separately use an external website or email app, such as the privacy policy link in the app or an email inquiry, that service's policy applies.
 
 ## 4. Retention and Deletion
 
-Signs, favorites, recent items, and settings are kept on your device until you delete them. In the library you can delete favorites or recent items one by one or clear the recent list; the recent list also drops its oldest items automatically so that it never holds more than 50.
+Signs, favorites, recent items, and settings are kept on your device until you delete them. In the library you can delete favorites or recent items one by one or clear the recent list; the recent list also drops its oldest items automatically so that it never holds more than 50. Downloaded font packs can be deleted one by one on the Packs screen or all at once with "Delete all".
 
 You can remove all on-device information by clearing app data where the operating system supports it or by deleting the app. For the desktop app, delete the app-data folder in Section 2 (this also removes any `.bak` copies); for the web version, delete the site's data (site storage) in your browser settings. Offloading an app on iOS may retain its data and is different from deleting it. Copies created by operating-system backup and restore features must be managed separately in the relevant backup settings; deleting the app does not by itself delete those copies.
 
@@ -63,6 +74,7 @@ People around you can see the messages you show, so take care when displaying pe
 
 ## 7. Changes to This Policy
 
-We announce material changes, such as changes to the information processed or its purposes, on this page or a linked screen in the app at least seven days before they take effect. We provide separate notice or obtain consent when required by law. If we later offer downloads of additional resources such as fonts or phrases, or sharing by QR code or link, we will add how they handle information to this policy before offering them.
+We announce material changes, such as changes to the information processed or its purposes, on this page or a linked screen in the app at least seven days before they take effect. We provide separate notice or obtain consent when required by law. If we later offer downloads of other resources such as phrases or backgrounds, or sharing by QR code or link, we will add how they handle information to this policy before offering them.
 
 - First published and effective: November 1, 2026
+- Amendment announced: November 1, 2026 (font pack downloads added); effective: November 8, 2026
