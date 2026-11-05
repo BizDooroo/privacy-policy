@@ -43,11 +43,11 @@ Android 앱은 홈 화면에서 바로 열 수 있도록 즐겨찾기와 재생�
 | 보관 기간 | Google의 정책에 따릅니다. 개발자는 이 정보를 받거나 보관하지 않습니다. |
 | 거부 방법과 영향 | 앱에 포함된 글꼴로 표시되는 글자만 쓰거나 휴대폰·태블릿·데스크톱 앱을 이용하면 전송되지 않습니다. 이 경우 일부 글자가 보이지 않을 수 있습니다. |
 
-이용자가 팩 화면이나 글꼴·배경 안내에서 “받기”를 누를 때만, 앱은 추가 글꼴·문구·배경·스타일 팩 파일을 공개 콘텐츠 전송망(CDN)인 jsDelivr에서 내려받습니다. jsDelivr에서 받지 못하면 일부 글꼴은 글꼴의 원 배포처인 GitHub에서 한 번 더 받습니다. 요청에는 계정, 기기 식별자, 쿠키를 넣지 않고 입력한 문구도 보내지 않으며, 내려받을 수 있는 팩 목록은 앱에 들어 있어 따로 서버에 묻지 않습니다. 이때 이용자의 기기가 해당 서버에 직접 접속하므로 다음과 같이 접속 정보가 국외로 전송될 수 있습니다.
+이용자가 팩 화면이나 글꼴·배경 안내에서 “받기”를 누를 때만, 앱은 추가 글꼴·문구·배경·스타일 팩 파일을 공개 콘텐츠 전송망(CDN)인 jsDelivr에서 내려받습니다. jsDelivr에서 받지 못하면 같은 팩 파일을 GitHub(`raw.githubusercontent.com`)에서 한 번 더 받고, 일부 글꼴은 글꼴의 원 배포처(GitHub)에서도 한 번 더 받습니다. 요청에는 계정, 기기 식별자, 쿠키를 넣지 않고 입력한 문구도 보내지 않으며, 내려받을 수 있는 팩 목록은 앱에 들어 있어 따로 서버에 묻지 않습니다. 이때 이용자의 기기가 해당 서버에 직접 접속하므로 다음과 같이 접속 정보가 국외로 전송될 수 있습니다.
 
 | 항목 | 내용 |
 | --- | --- |
-| 받는 자 | jsDelivr 공개 CDN (`cdn.jsdelivr.net`), [jsDelivr 개인정보처리방침](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net). 일부 글꼴을 다시 받을 때 GitHub, Inc. (`github.com`, `raw.githubusercontent.com`, `release-assets.githubusercontent.com` 등 GitHub가 운영하는 주소), [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| 받는 자 | jsDelivr 공개 CDN (`cdn.jsdelivr.net`), [jsDelivr 개인정보처리방침](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net). jsDelivr에서 받지 못해 다시 받을 때 GitHub, Inc. (`github.com`, `raw.githubusercontent.com`, `release-assets.githubusercontent.com` 등 GitHub가 운영하는 주소), [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 | 전송되는 정보 | IP 주소 등 접속 정보와 요청한 팩 파일의 주소(웹 버전은 브라우저 정보 포함) |
 | 전송 국가와 시점 | 이용자와 가까운 jsDelivr 서버의 소재 국가, GitHub는 미국 등. 이용자가 “받기”를 누를 때 암호화된 통신(HTTPS)으로 전송됩니다. |
 | 보관 기간 | 각 회사의 정책에 따릅니다. 개발자는 이 정보를 받거나 보관하지 않습니다. |
@@ -89,3 +89,4 @@ Android 앱은 홈 화면에서 바로 열 수 있도록 즐겨찾기와 재생�
 - 개정 공고: 2026년 11월 1일 (글꼴 팩 내려받기 추가), 시행: 2026년 11월 8일
 - 개정 공고: 2026년 11월 2일 (QR·링크·파일 공유와 QR 스캔용 카메라, 문구·배경·스타일 팩, 재생목록과 홈 화면 바로가기·위젯 추가), 시행: 2026년 11월 9일
 - 개정 공고: 2026년 11월 3일 (소리 반응용 마이크, 여러 대로 잇기 추가), 시행: 2026년 11월 10일
+- 문구 명확화: 2026년 11월 5일 (앱 업데이트로 GitHub 재시도를 모든 팩 파일로 확대; 받는 자와 항목은 동일)
