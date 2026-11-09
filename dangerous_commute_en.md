@@ -9,7 +9,7 @@ title: Dangerous Commute Privacy Policy
 
 ## 1. The Service and Information Handling
 
-The Service is a game that requires no registration or login. It processes location and motion sensor information on your device to calculate distance travelled and drink movement, and stores game records on your device. Under the current default distribution configuration, external crash reporting is disabled, and the app does not automatically send location, sensor information, or game records to the Developer or external servers. Sharing you choose to initiate and emails you separately send to support are handled under Sections 4 and 6.
+The Service is a game that requires no registration or login. It processes location and motion sensor information on your device to calculate distance travelled and drink movement, and stores game records on your device. The app does not automatically send location, sensor information, or game records to the Developer or external servers. From November 16, 2026, when the app hits an error it sends only error information to the error analysis service Sentry (Section 4). Sharing you choose to initiate and emails you separately send to support are handled under Sections 4 and 6.
 
 ## 2. Information Processed on Your Device and Its Purposes
 
@@ -29,17 +29,32 @@ The Service is a game that requires no registration or login. It processes locat
 
 You can revoke permissions in device settings. Revocation limits features that need those permissions but does not delete records or copies already shared.
 
-## 4. Sharing and External Services
+## 4. Sharing, Processing and International Transfers
 
 When you choose to share, a result-card image, including remaining drink, distance, duration, date, and graph, is passed to the app you select. A temporary image may be created in your device's cache for sharing. Copies in the receiving app or photo library must be deleted separately there. Subsequent processing is governed by that service's policy.
 
-Under the current default distribution configuration, the app does not transmit information for advertising, tracking, or external analytics, and does not use server storage, outsourced processing, or international transfers of game information. If information transmission such as external crash reporting is introduced, we will update this policy with the information involved, providers, retention periods, and user choices, and provide any required notice and consent process.
+The app does not transmit information for advertising, tracking, or external analytics, and has no server storage of game records. Apart from error information, nothing leaves the device.
+
+**Error reporting (effective November 16, 2026).** When an error occurs, the app sends error information (the error and where it happened, app version, device model, OS version, language and time zone, device state such as memory, storage and battery, and a random per-installation identifier (included in native crash reports)) to the error analysis service Sentry so the cause can be fixed. Only unhandled errors, crashes, and freezes (ANR/app hangs) are sent, and the same error at most three times per run. Names, contact details, location coordinates, routes, game records, and screenshots or screen recordings are never sent. Because sending uses the internet, Sentry's servers receive the IP address in transit; the Developer configures the Sentry project not to store IP addresses.
+
+| Item | Details |
+| --- | --- |
+| Processor and recipient | Functional Software, Inc. d/b/a Sentry |
+| Contact | [compliance@sentry.io](mailto:compliance@sentry.io), [Sentry Privacy Policy](https://sentry.io/privacy/) |
+| Purpose | Analysing errors and crashes and improving app stability |
+| Information transferred | The error information above, the IP address received in transit (configured not to be stored), and the approximate region derived from it |
+| When and how | When an error occurs, over HTTPS |
+| Location | United States (the app's Sentry project is in the US region). [Data storage location](https://docs.sentry.io/organization/data-storage-location/), [subprocessors](https://sentry.io/legal/subprocessors/) |
+| Retention | Deleted automatically under Sentry's retention policy (published defaults for error events: 30 days on the Developer plan, 90 days on Team, Business and Enterprise; [retention periods](https://docs.sentry.io/security-legal-pii/security/data-retention-periods/)). |
+| Refusal and effect | Error reporting is needed to keep the app stable, so there is no in-app switch. If you do not want it, you may delete the app or stop using it; to request deletion of information already sent, see Section 6. |
 
 ## 5. Retention and Deletion
 
 Game records and preferences remain on your device until you delete them. Deleting a commute record removes that record and its graph data, while earned stamps and separate preferences remain.
 
 To remove all on-device information, clear app data where the operating system supports it or delete the app. Offloading an app on iOS may retain its data and is different from deleting it. Operating-system backup and restore copies and shared images must be managed separately; deleting the app does not by itself delete those copies.
+
+Error information sent to Sentry is deleted automatically after the retention period in Section 4; deleting the app does not delete information already sent.
 
 ## 6. Support Information and Your Rights
 
@@ -49,13 +64,16 @@ You may contact us below to request access to, correction or deletion of, or res
 
 We cannot remotely access, correct, or delete information stored only on your device. Please manage it through the app and operating-system controls. We delete inquiry information when it is no longer needed; if retention is legally required, we retain it on the applicable legal basis for the required period.
 
+Error information sent to Sentry is identified only by a random identifier, without name or contact details, so we usually cannot locate a specific user's events. We act on deletion requests where we can identify the data; otherwise it is deleted automatically after the retention period in Section 4.
+
 - Operator: Bizdooroo (비즈두루)
 - Privacy Officer: Jiyeon Jang (장지연), Representative (Developer)
 - Email: [graziosojy@gmail.com](mailto:graziosojy@gmail.com)
 
 ## 7. Changes to This Policy
 
-We announce material changes, such as changes to the information processed or its purposes, on this page or a linked screen in the app at least seven days before they take effect. We provide separate notice or obtain consent when required by law. This clarification describes existing information handling and deletion methods; it does not introduce new collection features.
+We announce material changes, such as changes to the information processed or its purposes, on this page or a linked screen in the app at least seven days before they take effect. We provide separate notice or obtain consent when required by law. This amendment adds error reporting (Section 4).
 
 - First published and effective: September 30, 2026
 - Clarification published and effective: October 22, 2026
+- Amendment published November 9, 2026, effective November 16, 2026 — adds error reporting to Sentry (United States) in Section 4. Nothing else processed changed.
