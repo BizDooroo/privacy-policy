@@ -44,7 +44,7 @@ The following information is not transmitted:
 
 Because transmission occurs over the internet, Sentry's servers receive your IP address during communication. The app does not include IP addresses in error information, and the Sentry project is configured not to store IP addresses, so we do not use IP addresses to identify users. However, Sentry's servers may estimate and record an approximate country/city-level region from the receiving IP address; this alone cannot identify an individual. Operating-system-level native crash reporting and session tracking are not used because they may send device identifiers.
 
-Debug builds used internally for development and testing are not distributed through app stores. For testing purposes, they send the same scope of information regardless of the setting above. These builds measure performance more broadly and may also send app execution logs with search conditions removed.
+Debug builds used internally for development and testing are used only by the developer and are not distributed through app stores or any other channel. No debug-build reporting takes place on the devices of users who install this app.
 
 Turning the setting off immediately stops subsequent collection and transmission. Information already received by the server is not automatically deleted; you can request deletion using the contact in Section 7. All features, including book search and stock checks, remain available without turning on reporting.
 
@@ -101,3 +101,4 @@ We publish material changes in the app or on this page at least seven days befor
 - Clarification published and effective: October 22, 2026
 - Amendment published: October 27, 2026; effective: November 3, 2026
 - This amendment renames the optional setting to “Send error and crash information to the server,” adds an explanation and consent step when turning it on, and narrows what is sent: SDK installation/session identifiers, device names/unique identifiers, original error message text, and search conditions in request addresses are no longer sent, and IP addresses are configured not to be stored. It also describes reporting from internal debug builds. No new personal information is collected.
+- Clarified on November 9, 2026: the debug-build paragraph now states that debug builds are used only by the developer and never distributed. Processing that applies to users did not change.
