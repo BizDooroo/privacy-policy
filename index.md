@@ -17,3 +17,4 @@ title: 개인정보 처리방침
 - [빛말 개인정보 처리방침](textled) · [English](textled_en) · [빛말 이용약관](textled_terms) · [English](textled_terms_en)
 - [체스리가도 개인정보 처리방침](chessrigado) · [English](chessrigado_en)
 - [장기리가도 개인정보 처리방침](jangirigado) · [English](jangirigado_en)
+- [겨울 방학 개인정보 처리방침](winter_vacation) · [English](winter_vacation_en)
