@@ -26,12 +26,11 @@ Aladin is an external book-search and stock-information service, distinct from a
 
 ## 3. Optional Error and Crash Reporting
 
-“Send error and crash information to the server” (“오류 및 크래시 정보 서버 전송”) is off by default. When you turn it on, the app first explains what is and is not sent, and initializes Sentry to analyze errors, crashes, and performance issues only if you agree. The following information may be transmitted during app use and background tasks:
+“Send error and crash information to the server” (“오류 및 크래시 정보 서버 전송”) is off by default. When you turn it on, the app first explains what is and is not sent, and initializes Sentry to analyze errors and crashes only if you agree. Only when an error or crash occurs, the following information may be transmitted during app use and background tasks. Performance measurements such as processing time are not sent.
 
 - App version, operating system version, device model, language/time zone, and device state such as memory and storage
 - Error types and code locations (stack traces), event times, active screen/feature names and task progress, and network state
-- Some performance measurements, such as screen transitions and app start time
-- Count and timing aggregates such as watched-book counts, store counts, stock-candidate counts, calculation time, and whether calculation limits were exceeded
+- Count aggregates of the failing operation, such as watched-book counts, store counts, and stock-candidate counts
 - An event number newly generated for each report to distinguish individual error reports
 
 The following information is not transmitted:
@@ -56,9 +55,9 @@ Optional error and crash information is processed by the following provider on o
 | --- | --- |
 | Processor and recipient | Functional Software, Inc. d/b/a Sentry |
 | Contact | [compliance@sentry.io](mailto:compliance@sentry.io), [Sentry Privacy Policy](https://sentry.io/privacy/) |
-| Purpose | Analysis of errors, crashes, app stability, and performance |
-| Information transferred | Error and performance information that Section 3 states is sent, IP addresses received during communication (configured not to be stored), and approximate regions estimated from them |
-| Timing and method | HTTPS transmission over the internet when error or performance events occur while “Send error and crash information to the server” is on |
+| Purpose | Analysis of errors and crashes |
+| Information transferred | Error and crash information that Section 3 states is sent, IP addresses received during communication (configured not to be stored), and approximate regions estimated from them |
+| Timing and method | HTTPS transmission over the internet when errors or crashes occur while “Send error and crash information to the server” is on |
 | Transfer location | United States (the Sentry ingestion address and project currently configured in the app are in the US region). See the official materials below for Sentry's storage locations and subprocessors. |
 | Retention | See the Sentry retention explanation in Section 5. |
 | How to decline and consequences | Leave “Send error and crash information to the server” off or turn it off. Core features remain available, but our ability to analyze the relevant errors is limited. For requests about existing information, see Section 7. |
@@ -102,3 +101,4 @@ We publish material changes in the app or on this page at least seven days befor
 - Amendment published: October 27, 2026; effective: November 3, 2026
 - This amendment renames the optional setting to “Send error and crash information to the server,” adds an explanation and consent step when turning it on, and narrows what is sent: SDK installation/session identifiers, device names/unique identifiers, original error message text, and search conditions in request addresses are no longer sent, and IP addresses are configured not to be stored. It also describes reporting from internal debug builds. No new personal information is collected.
 - Clarified on November 9, 2026: the debug-build paragraph now states that debug builds are used only by the developer and never distributed. Processing that applies to users did not change.
+- Clarified on November 17, 2026: error and crash reporting now sends only information about errors and crashes when they occur. Performance measurements and timing aggregates such as calculation time are no longer sent. No new personal information is collected.
