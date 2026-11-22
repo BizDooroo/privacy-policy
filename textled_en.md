@@ -18,6 +18,7 @@ The Service shows a message you type in large type on your screen, like an LED s
 | Messages you enter and their font, size, color, LED, motion, blink, and effect settings | Reopen the sign you are editing and the sign you used last. |
 | Favorites (including the names and order you give them) and up to 50 recently shown or edited signs, with the time each was last used | Let you show or edit them again from the library. |
 | Playlists (the names you give them, when they were made, their display orientation, the favorites they hold and their order, and how long each one shows) | Show several signs one after another. |
+| Values you typed into the blanks of a saved sign (such as `{name}`) to show it, the latest 8 for each blank | Let you pick them again the next time you fill the same blank. Typing them is up to you, and a sign shown with them filled in is kept in the recent list. |
 | Packs you download (font, phrase, background, and style files, license documents, and install information) | Use those fonts, phrases, backgrounds, and styles without an internet connection. |
 | Language and theme, display defaults such as keeping the screen on, maximum brightness, auto-off, and the default orientation, the unlock method, list preview autoplay, and the safety notices you have already confirmed | Keep your chosen display preferences and avoid repeating safety notices. |
 
@@ -59,7 +60,7 @@ If you separately use an external website or email app, such as the privacy poli
 
 ## 4. Retention and Deletion
 
-Signs, favorites, playlists, recent items, and settings are kept on your device until you delete them. In the library you can delete favorites or recent items one by one or clear the recent list, and playlists can be deleted on the Playlists screen; the recent list also drops its oldest items automatically so that it never holds more than 50. Downloaded packs can be deleted one by one on the Packs screen or all at once with "Delete all".
+Signs, favorites, playlists, recent items, and settings are kept on your device until you delete them. In the library you can delete favorites or recent items one by one or clear the recent list, and playlists can be deleted on the Playlists screen; the recent list also drops its oldest items automatically so that it never holds more than 50. Downloaded packs can be deleted one by one on the Packs screen or all at once with "Delete all". Values typed into blanks can be removed one by one with the ✕ (Remove from the list) next to them on the fill-in screen; deleting a favorite does not remove them.
 
 You can remove all on-device information by clearing app data where the operating system supports it or by deleting the app. For the desktop app, delete the app-data folder in Section 2 (this also removes any `.bak` copies); for the web version, delete the site's data (site storage) in your browser settings. Offloading an app on iOS may retain its data and is different from deleting it. Copies created by operating-system backup and restore features must be managed separately in the relevant backup settings; deleting the app does not by itself delete those copies.
 
@@ -90,3 +91,4 @@ We announce material changes, such as changes to the information processed or it
 - Amendment announced: November 2, 2026 (sharing by QR code, link, and file; the camera for QR scanning; phrase, background, and style packs; playlists and home-screen shortcuts and widget added); effective: November 9, 2026
 - Amendment announced: November 3, 2026 (the microphone for Sound and the multi-phone sign added); effective: November 10, 2026
 - Wording clarified: November 5, 2026 (an app update widens the GitHub retry to every pack file; recipients and data unchanged)
+- Amendment announced: November 23, 2026 (values typed into the blanks of saved signs added); effective: November 30, 2026
