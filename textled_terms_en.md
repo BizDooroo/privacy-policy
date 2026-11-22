@@ -9,24 +9,24 @@ title: Bitmal Terms of Use
 
 ## 1. Scope
 
-1. These terms apply to everyone who buys, installs, and uses the App from Google Play or the App Store.
-2. By buying or using the App you accept these terms. If you do not accept them, do not use the App and request a refund through the store's refund process.
+1. These terms apply to everyone who installs and uses the App from Google Play or the App Store.
+2. By installing or using the App you accept these terms. If you do not accept them, please do not use the App.
 3. For an App obtained from the App Store, Apple's standard Licensed Application End User License Agreement also applies (the Developer registers no separate EULA), and where the two documents conflict, Apple's agreement prevails. For an App obtained from Google Play, the Google Play Terms of Service also apply.
 4. Where mandatory law differs from these terms, the law applies. Nothing in these terms reduces the rights that the law guarantees to consumers.
 
 ## 2. The Service
 
 1. The App is a tool that shows the text you type large on the screen, like an LED sign. Every feature runs on your device; there is no sign-up or account, and the text and settings you enter are never sent to the Developer's servers.
-2. Every feature of the App is included in the purchase price. The App contains no ads, no in-app purchases, no subscriptions, and no paywalled features.
+2. The App is free, and every feature of the App is free for every user. The App contains no ads and no subscriptions.
 3. The Developer may add, change, or improve features through updates. Some features (for example Sound, which uses the microphone, video export, or home-screen quick actions) may be unavailable on some operating systems or devices; which features are on which platform can be seen in the App and in the store description.
 4. The desktop (Windows, macOS, Linux) and web versions are not distributed publicly. The share-link page (`hoppipolla.me/textled/s`) is a free viewer that lets someone without the App preview a sign that was shared with them; it does not replace the App.
 
-## 3. Purchase, Payment, and Refunds
+## 3. Paid Content and Payment
 
-1. Pricing, payment, receipts, and refunds follow the policies and procedures of the store where you bought the App (Google Play or the App Store) and applicable law (including Korea's Act on Consumer Protection in Electronic Commerce). The Developer does not take payments or process refunds outside the stores.
-2. No payment of any kind happens inside the App.
-3. A purchase belongs to the store account that made it. You can reinstall the App on devices signed in to that same store account under the store's rules. The App has no account of its own, so a purchase on Google Play does not transfer to the App Store, or the other way round.
-4. Whether family sharing (Google Play Family Library, Apple Family Sharing) applies depends on each store's settings and policies.
+1. No payment of any kind happens inside the current version of the App.
+2. A later version may add the option to buy content the Developer made itself, such as backgrounds, styles, effects, and fonts. The App's features stay free, and every feature can be used without buying any content.
+3. Before paid content is introduced, its terms for price display, payment, refunds, and withdrawal will be posted in these terms following section 8. Payment and refunds follow the policies and procedures of each store (Google Play or the App Store) and applicable law (including Korea's Act on Consumer Protection in Electronic Commerce).
+4. The open fonts and the already published phrase, background, and style packs that the App downloads are never sold.
 5. The Developer's business details (business name, business registration number, mail-order business report number, contact details) can be found in the seller information each store provides and on the App's product page; any item a store does not show is provided on request by email (section 10).
 
 ## 4. Your Responsibilities
@@ -45,7 +45,7 @@ title: Bitmal Terms of Use
 
 ## 6. Intellectual Property
 
-1. The rights to the App's software, design, icon, and built-in templates and phrases belong to the Developer or the respective rights holders. You receive a non-exclusive right to use the App on the devices of the store account that bought it; you may not copy, redistribute, or sell the App itself.
+1. The rights to the App's software, design, icon, and built-in templates and phrases belong to the Developer or the respective rights holders. You receive a non-exclusive right to use the App on the devices where you install it; you may not copy, redistribute, or sell the App itself.
 2. The text you type and the signs and styles you make are yours. The Developer claims no rights to them and never receives or stores them.
 3. The conditions for submitting a style to the official style packs are described in the public repository (`BizDooroo/textled-assets`).
 
@@ -57,7 +57,7 @@ title: Bitmal Terms of Use
 
 ## 8. Changes to These Terms
 
-When these terms change, the changes and their effective date are posted on this page at least 7 days before they take effect (at least 30 days for changes that are material or unfavorable to users), and material changes are also noted in the App's update notes. Changed terms apply from their effective date and not to earlier use; if you do not accept a change, you may stop using the App and request a refund under applicable law and the store's policy.
+When these terms change, the changes and their effective date are posted on this page at least 7 days before they take effect (at least 30 days for changes that are material or unfavorable to users), and material changes are also noted in the App's update notes. Changed terms apply from their effective date and not to earlier use; if you do not accept a change, you may stop using the App.
 
 ## 9. Governing Law and Disputes
 
@@ -70,3 +70,4 @@ These terms are interpreted under the laws of the Republic of Korea. Please rais
 - Business registration number and mail-order business report number: in each store's seller information (items a store does not show are provided by email)
 
 - First published and effective: November 5, 2026
+- Amended: published November 22, 2026, effective November 29, 2026 (the App is free with every feature free, and the procedure for introducing optional paid content later: sections 1, 2.2, 3, 6.1, 8)
