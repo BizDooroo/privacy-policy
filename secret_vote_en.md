@@ -34,7 +34,7 @@ The sharing feature passes a poll link and accompanying text to the external app
 1. Active polls are processed in a server-side Redis store. A poll can run for up to seven days after creation, and polls created with app version 1.0.11 or later end automatically 24 hours after creation.
 2. The content and aggregated results of ended polls are kept on our servers for seven days after the poll ends so organizers can recover results, and are then deleted automatically. Deletion runs periodically and may be delayed by up to a few hours. We do not collect poll content (titles, descriptions, options, or choices) or personal information for statistics or analysis. If you want stored content deleted sooner, you may request deletion using the contact information below; we will verify the data concerned and your authority to make the request before processing it.
 3. Statistics for improving the Service contain only the numbers listed in the table in Section 1. Because they contain no poll content or identifiers, they are kept without a time limit.
-4. Content, results, and backup files of ended polls stored before this policy took effect will be deleted by {{LEGACY_DELETION_DATE}}.
+4. Content, results, and backup files of ended polls stored before this policy took effect will be deleted by December 1, 2026.
 5. Deleting poll history in the app deletes the history on that device. Results kept on our servers are deleted on the schedule in item 2, regardless of local history. You can remove on-device information by clearing the app's data or uninstalling the app. Copies created through operating-system backup and restore features are subject to the relevant operating-system settings.
 6. Inquiry emails are retained for one year to handle inquiries and are then deleted. API request logs are kept for 400 days and server execution logs for 30 days, and our servers do not record IP addresses. Technical information processed by service providers is handled according to the operating and retention settings of the relevant systems. Where retention is required by law, we comply with those requirements.
 
@@ -57,9 +57,9 @@ To stop sending additional poll information, stop using features that require se
 
 ## 6. Changes to This Policy
 
-We will provide advance notice of material changes, such as changes to the information processed or the purposes of processing, on this page or a linked screen. The {{EFFECTIVE_DATE}} revision sets a seven-day retention period for ended polls and describes numeric statistics that contain no poll content or identifiers. The October 15, 2026 correction clarifies the server-side processing and retention currently used for online polls, corrects the earlier inaccurate statement that the Service operates only on the device without sending information to servers, and corrects the inquiry email address.
+We will provide advance notice of material changes, such as changes to the information processed or the purposes of processing, on this page or a linked screen. The November 24, 2026 revision sets a seven-day retention period for ended polls and describes numeric statistics that contain no poll content or identifiers. The October 15, 2026 correction clarifies the server-side processing and retention currently used for online polls, corrects the earlier inaccurate statement that the Service operates only on the device without sending information to servers, and corrects the inquiry email address.
 
 - First published: January 30, 2026
 - Correction published and effective: October 15, 2026
 - Clarification of permission withdrawal and request procedures: October 22, 2026 (no new data collection or purposes of use)
-- Seven-day retention for ended polls and numeric statistics: published {{PUBLISHED_DATE}}, effective {{EFFECTIVE_DATE}}
+- Seven-day retention for ended polls and numeric statistics: published November 24, 2026, effective November 24, 2026
